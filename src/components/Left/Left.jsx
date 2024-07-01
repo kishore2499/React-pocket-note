@@ -57,7 +57,7 @@ const LeftSidePannel = ({ handleClick, handleUserIdClicked, id, groupName, color
   const handleButtonClick = (buttonId) => {
     setClickedButton(buttonId);
   };
-
+// abc 
   const buttonStyle = (buttonId) => {
     return {
       backgroundColor: clickedButton === buttonId ? "#F7ECDC" : "transparent",
